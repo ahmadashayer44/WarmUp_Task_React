@@ -1,5 +1,6 @@
 import SearchBar from "./components/SearchBar";
 import User from "./components/User";
+import Buttons from "./components/Buttons";
 import "./App.css";
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <User name="Bonginkosi Mdladlana" checked={false} />
         <User name="Arina Belomestnykh" checked={true} />
         <User name="Jacqueline Likoki" checked={true} />
+        <Buttons />
       </div>
     </div>
   );
